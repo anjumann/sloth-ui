@@ -80,5 +80,9 @@
 }
 
 .eyebrow-text{
-  @apply w-fit mx-auto p-1.5 px-4 rounded-full text-[#4F46E5] font-medium bg-[#d7d5f733] mb-6 text-sm 
+  @apply w-fit  p-1.5 px-4 rounded-full text-[#4F46E5] font-medium bg-[#d7d5f733]  text-sm 
+}
+
+.sub-heading-text{
+  @apply text-5xl font-bold 
 }

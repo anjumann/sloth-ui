@@ -8,7 +8,7 @@ const Hero = () => {
     <div className=' w-fit mx-auto 
     ' >
       <div className="pt-28"></div>
-      <div className="eyebrow-text">
+      <div className="eyebrow-text mb-6 mx-auto">
         A Design Breakthrough
       </div>
       <div className="flex flex-col gap-y-7">
