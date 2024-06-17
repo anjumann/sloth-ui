@@ -1,7 +1,7 @@
 import Image from "next/image"
 
 import logo from '@/assets/logo.png'
-import { Bell, ShoppingCart } from "lucide-react"
+import { Bell, MoveRight, ShoppingCart } from "lucide-react"
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar"
 import { Button } from "./ui/button"
 
@@ -31,7 +31,7 @@ export default function Header() {
             <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
             <AvatarFallback>CN</AvatarFallback>
           </Avatar>
-          <Button className=" bg-[#4F46E5] hover:bg-[#312c8b] " > Go Pro Today </Button>
+          <Button className=" bg-[#4F46E5] hover:bg-[#312c8b] " >  Go Pro Today  <MoveRight className='ml-2' size={16} /> </Button>
       </div>
     </header>
   )
