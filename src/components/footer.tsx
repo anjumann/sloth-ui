@@ -29,9 +29,9 @@ const siteMapData = [
 
 export default function Footer() {
   return (
-    <footer className=' px-28 pt-28 pb-5 '>
+    <footer className=' px-12 lg:px-28 pt-28 pb-5 '>
 
-      <div className=" grid grid-cols-6 gap-4 w-full mx-auto ">
+      <div className=" flex flex-wrap gap-x-12 gap-y-8  w-full mx-auto ">
 
         {siteMapData.map((section, index) => (
           <div key={index}>
@@ -49,7 +49,7 @@ export default function Footer() {
       <div className="my-10 h-[1px] bg-gray-600/30"></div>
 
       <p className='text-center text-sm text-gray-500'>
-        &copy; {new Date().getFullYear()} Your Company. All rights reserved.
+        &copy; {new Date().getFullYear()} Sloth UI. All rights reserved.
       </p>
 
     </footer>

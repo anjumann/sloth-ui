@@ -14,7 +14,7 @@ const Partners = () => {
       <div className="text-center">
         Trusted By 100+ Companies Worldwide.
       </div>
-      <div className="flex flex-row mx-auto w-8/12 my-10 justify-between ">
+      <div className="flex flex-wrap mx-auto w-8/12 my-10 justify-between gap-y-4 ">
         <Image src={planetX} width={150} height={120} alt="" />
         <Image src={linez} width={120} height={120} alt="" />
         <Image src={pwrup} width={150} height={120} alt="" />

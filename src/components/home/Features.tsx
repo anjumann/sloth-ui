@@ -4,7 +4,7 @@ import features from "@/assets/Freatures.png"
 import { Check } from 'lucide-react';
 const Features = () => {
   return (
-    <div className='grid grid-cols-2 p-28 bg-slate-100/75 place-items-center ' >
+    <div className='grid grid-cols-1 lg:grid-cols-2 p-28 bg-slate-100/75  ' >
       <div className="">
         <div className="eyebrow-text">
           Features
@@ -22,7 +22,7 @@ const Features = () => {
           </div>
         </div>
       </div>
-      <div className="relative flex justify-end items-end ">
+      <div className="relative flex justify-start lg:justify-end items-center ">
         <Image src={features} alt="" className=' h-full ' />
       </div>
     </div>

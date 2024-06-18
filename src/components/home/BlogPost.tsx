@@ -47,12 +47,12 @@ const blogPosts = [
 
 const BlogPost = () => {
   return (
-    <div className=" p-28 ">
+    <div className=" py-28 px-12 ">
 
-      <div className='grid grid-cols-2' >
+      <div className='grid lg:grid-cols-2' >
         <div className="  ">
           <div className="eyebrow-text">
-            Features
+            Blogs
           </div>
           <div className="text-4xl font-semibold my-4">
             Latest Article
@@ -61,12 +61,12 @@ const BlogPost = () => {
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, numquam ciis minima dolores, aspernatur quasi.
           </div>
         </div>
-        <div className="flex justify-end items-center ">
+        <div className="flex justify-start lg:justify-end items-center mt-8 lg:mt-0 ">
           <Button className='' > View All Post <MoveRight className='ml-1.5' /> </Button>
         </div>
       </div>
 
-      <div className="grid grid-cols-3 gap-x-14 pt-16 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 pt-16 ">
         {
           blogPosts.map((item, idx) => {
             return (
@@ -107,7 +107,7 @@ const BlogCards = ({ item }: {
               <div className="flex gap-2">
                 {item.categories.map((i, idx) => {
                   return (
-                    <div className="px-1.5 py-1 border-2 border-gray-700/30 rounded-full bg-black/50 w-fit text-white/80" key={idx}  > {i} </div>
+                    <div className="px-1.5 py-1 border-2 border-gray-700/30 rounded-full bg-black/50 w-fit text-white/80 text-sm md:text-base " key={idx}  > {i} </div>
                   )
                 })}
               </div>

@@ -8,7 +8,7 @@ import {
 
 const Faq = () => {
   return (
-    <div className=' w-fit mx-auto p-28 ' >
+    <div className=' w-fit mx-auto py-28 px-12 ' >
       <div className="eyebrow-text mb-6 mx-auto">
        FAQ
       </div>
