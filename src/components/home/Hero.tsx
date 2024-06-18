@@ -21,7 +21,7 @@ const Hero = () => {
         </div>
         <div className="mx-auto w-fit flex gap-x-3">
           <Button variant="outline" >  <HardDriveDownload className='mr-2' size={16} /> Download Free  <MoveRight className='ml-2' size={16} /> </Button>
-          <Button className=' bg-[#4F46E5] hover:bg-[#312c8b]'>  <LogIn className='mr-2' size={16} /> Sign In Today  <MoveRight className='ml-2' size={16} /> </Button>
+          <Button className=' '>  <LogIn className='mr-2' size={16} /> Sign In Today  <MoveRight className='ml-2' size={16} /> </Button>
         </div>
       </div>
       <div className="mt-4">

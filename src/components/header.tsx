@@ -31,7 +31,7 @@ export default function Header() {
             <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
             <AvatarFallback>CN</AvatarFallback>
           </Avatar>
-          <Button className=" bg-[#4F46E5] hover:bg-[#312c8b] " >  Go Pro Today  <MoveRight className='ml-2' size={16} /> </Button>
+          <Button className="  " >  Go Pro Today  <MoveRight className='ml-2' size={16} /> </Button>
       </div>
     </header>
   )
