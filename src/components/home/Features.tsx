@@ -4,7 +4,7 @@ import features from "@/assets/Freatures.png"
 import { Check } from 'lucide-react';
 const Features = () => {
   return (
-    <div className='grid grid-cols-1 lg:grid-cols-2 p-28 bg-slate-100/75  ' >
+    <div className='grid grid-cols-1 lg:grid-cols-2 py-28 px-12 lg:px-28 bg-slate-100/75  ' >
       <div className="">
         <div className="eyebrow-text">
           Features

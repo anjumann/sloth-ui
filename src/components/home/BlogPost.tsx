@@ -47,7 +47,7 @@ const blogPosts = [
 
 const BlogPost = () => {
   return (
-    <div className=" py-28 px-12 ">
+    <div className=" py-28 px-12 lg:px-28 ">
 
       <div className='grid lg:grid-cols-2' >
         <div className="  ">

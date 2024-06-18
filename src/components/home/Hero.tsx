@@ -19,7 +19,7 @@ const Hero = () => {
         <div className="w-2/3 mx-auto text-center">
           Introducing SlothUI, the design system tailored for entrepreneurs who prefer taking it easy. Say goodbye to lengthy design processes and hello to efficient  development.
         </div>
-        <div className="mx-auto w-fit flex flex-col md:flex-row gap-y-3">
+        <div className="mx-auto w-fit flex flex-col md:flex-row gap-3">
           <Button variant="outline" >  <HardDriveDownload className='mr-2' size={16} /> Download Free  <MoveRight className='ml-2' size={16} /> </Button>
           <Button className=' '>  <LogIn className='mr-2' size={16} /> Sign In Today  <MoveRight className='ml-2' size={16} /> </Button>
         </div>

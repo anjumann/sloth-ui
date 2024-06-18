@@ -37,7 +37,7 @@ const features = [
 
 const MainFeatures = () => {
   return (
-    <div className=' w-fit mx-auto py-28  px-2 ' >
+    <div className=' w-fit mx-auto py-28  px-12 lg:px-28 ' >
       <div className="eyebrow-text mb-6 mx-auto">
         Our Main Features
       </div>

@@ -10,7 +10,7 @@ import Image from 'next/image'
 
 const Partners = () => {
   return (
-    <div className='py-14 bg-slate-100/75 ' >
+    <div className='py-28 px-12 bg-slate-100/75 ' >
       <div className="text-center">
         Trusted By 100+ Companies Worldwide.
       </div>

@@ -29,9 +29,9 @@ const siteMapData = [
 
 export default function Footer() {
   return (
-    <footer className=' px-12 lg:px-28 pt-28 pb-5 '>
+    <footer className='  px-12 lg:px-28 pt-28 pb-5 '>
 
-      <div className=" flex flex-wrap gap-x-12 gap-y-8  w-full mx-auto ">
+      <div className=" flex flex-wrap gap-x-12 gap-y-8 items-center justify-start lg:justify-between w-full mx-auto ">
 
         {siteMapData.map((section, index) => (
           <div key={index}>

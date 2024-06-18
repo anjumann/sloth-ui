@@ -3,7 +3,7 @@ import React from 'react'
 import user from "@/assets/user.png"
 const Testimonials = () => {
   return (
-    <div className=' w-full mx-auto py-28 px-12  bg-slate-100/75 ' >
+    <div className=' w-full mx-auto py-28 px-12 lg:px-28  bg-slate-100/75 ' >
       <div className="eyebrow-text mb-6 mx-auto">
         Testimonials
       </div>
